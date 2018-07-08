@@ -67,7 +67,7 @@ $(function() {
     });
 
     describe('Initial Entries', function() {
-      
+
         /* This test ensures when the loadFeed function is called and
          * completes its work, there is at least a single .entry element
          * within the .feed container. loadFeed() is asynchronous so this
@@ -99,14 +99,12 @@ $(function() {
         beforeEach(function(done) {
             loadFeed(0, function() {
                 oldContent = document.querySelector('.feed').innerHTML;
-                console.log("old content =" + oldContent);
             });
             setTimeout(function() {
                 loadFeed(1, function() {
                     newContent = document.querySelector('.feed').innerHTML;
                     loadFeed(0);
                     done();
-                    console.log("new content =" + newContent);
                 }, 2500);
             });
         });
