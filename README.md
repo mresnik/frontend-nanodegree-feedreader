@@ -11,9 +11,9 @@ Open the index.html file in a browser. Jasmine will appear in the lower portion 
 Should any changes be made to the files simply reload the index.html page in the browser and the tests will automatically be run.
 
 ## Built With
-[Jasmine](https://jasmine.github.io/) - For testing
-[Google Hosted Libraries](https://developers.google.com/speed/libraries/)
-[jsDelivr](https://www.jsdelivr.com/) - Open Source CDN
+* [Jasmine](https://jasmine.github.io/) - For testing
+* [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
+* [jsDelivr](https://www.jsdelivr.com/) - Open Source CDN
 
 ## Authors
 
